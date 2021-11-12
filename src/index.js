@@ -1,4 +1,4 @@
-import PlayerSentences from "./PlayerSentences.js";
+import PlayerSentences from "./utils/PlayerSentences.js";
 
 const player = new PlayerSentences(document.getElementById("sentence"));
 player.getSentences();
